@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;	
+}
+#gameCanvas{
+		top: 0;
+		left: 0;
+		backdrop-filter: blur(0px);
+}
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#canvas-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#header-container {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+#startButton {
+	position: absolute;
+	top: calc(50% + 150px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 240px; 
+	height: 60px; 
+	font-size: 24px; 
+	background-color: #8bd5e8;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	font-weight: bold;
+  }
+
+
+

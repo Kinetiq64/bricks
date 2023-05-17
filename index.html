@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="ball3.png" type="image/x-icon">
+<title>Bricks</title>
+
+</head>
+<body>
+<div id="canvas-container">
+<h1 id="header-container">☁️Destroy the Clouds☁️</h1>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+</div>
+<button id="startButton">START</button>
+<script>
+   var startButton = document.getElementById('startButton');
+    startButton.addEventListener('click', startGame);
+    function startGame() {
+  startButton.style.display = 'none';
+
+  ballReset();
+}
+  </script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
